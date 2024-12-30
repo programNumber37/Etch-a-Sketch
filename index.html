@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="etchaSketch.js" defer></script>
+
+    <style>
+        .container{
+          display: flex;
+          flex-wrap: wrap;
+          width: 1000px;
+          height: 1000px;
+          
+          
+        }
+
+        .hovered{
+            background-color: red !important;
+        }
+
+
+        .containerElement{
+            background-color: blue;
+            flex-basis: calc(100% / 16); 
+            height: calc(100% / 16);     
+            box-sizing: border-box; 
+            border: black solid 1px;
+        }
+    
+    
+      </style>
+
+</head>
+<body>
+    <button>change size</button>
+    <div class="container">
+
+    </div>
+</body>
+</html>
